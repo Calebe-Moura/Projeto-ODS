@@ -5,9 +5,11 @@
         margin: 0px;
         padding: 0px;
         font-size: 16px;
+        background-attachment: fixed;
     }
     
     header {
+        background-attachment: fixed;
         background-color: rgb(49, 131, 189);
         padding: 25px;
     }
@@ -135,7 +137,7 @@
     }
     
     div.img_principal {
-        height: 400px;
+        height: auto;
         text-align: center;
         padding-bottom: 30px;
         padding-top: 30px;
