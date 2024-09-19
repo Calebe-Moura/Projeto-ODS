@@ -82,7 +82,7 @@ a.hub:hover::after {
 main {
     background-color: white;
     max-width: 1000px;
-    min-width: 280px;
+    min-width: 400px;
     padding: 30px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
