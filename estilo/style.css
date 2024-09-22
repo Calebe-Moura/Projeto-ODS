@@ -120,6 +120,7 @@
                     font-size: 2em;
                     color: white;
                     text-shadow: 1px 1px 1px #112c66;
+                    font-weight: normal;
                     height: 62px;
                 }
                 
@@ -186,4 +187,30 @@
                 
                 iframe {
                     padding: 20px;
+                }
+                
+                p.paragrafo_principal {
+                    font-weight: bold;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 1.4em;
+                    text-align: center;
+                    padding: 10px;
+                }
+                
+                .imagem-ods3 {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: auto;
+                    padding: 20px;
+                    border-top: 1px solid #22448ca4;
+                    border-bottom: 1px solid #22448ca4;
+                    margin: auto;
+                }
+                
+                .imagemods3 {
+                    width: 250px;
+                    height: 250px;
+                    margin-left: 20px;
+                    margin-right: 20px;
                 }
