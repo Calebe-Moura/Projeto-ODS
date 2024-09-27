@@ -3,3 +3,281 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (min-width:1120px) {
+    header {
+        height: 200px;
+        width: 100%;
+        background-color: #122348;
+    }
+    h1.principal-header {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 2em;
+        color: white;
+        text-shadow: 1px 1px 1px #112c66;
+        font-weight: normal;
+        height: 62px;
+    }
+    /*==========CORPO==========*/
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-image: linear-gradient(180deg, #c3ddff, #eaf8ff, #ffffff);
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    main {
+        width: 1000px;
+        background-color: #ffffff;
+        padding: 5px 25px 25px 25px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 0px 8px#112c6670;
+        margin: auto;
+        transition-duration: 0.3s;
+    }
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #112c66;
+        padding: 10px 5px;
+        font-size: 3em;
+        text-shadow: 1px 1px 2px #0f2556;
+    }
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+        padding: 10px 5px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #5e687e;
+    }
+    h3 {
+        font-size: 1.9em;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 5px;
+        font-weight: normal;
+        text-shadow: 1px 1px 1px #5b6988;
+    }
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.4em;
+        padding: 10px 5px;
+    }
+    p {
+        text-indent: 30px;
+        line-height: 25px;
+        font-size: 1.2em;
+        padding: 5px;
+    }
+    .imagem-ods,
+    .imagem-hub {
+        width: 100%;
+        height: 310x;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        padding: 20px 0px;
+        border-top: 1px solid #091531;
+        border-bottom: 1px solid #091531;
+    }
+    .imagemods,
+    .imagemhub {
+        width: 250px;
+        height: 310x;
+        padding: 0px 20px;
+    }
+    .imagemods img,
+    .imagemhub img {
+        width: 250px;
+        height: 250px;
+    }
+    .txt_img {
+        text-align: center;
+        text-indent: 0px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .videoyt {
+        margin: auto;
+        width: 400px;
+        padding-top: 20px;
+    }
+    iframe {
+        height: 300px;
+        width: 400px;
+    }
+    p.paragrafo_principal {
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    .fontes {
+        padding: 15px;
+        font-size: 1.3em;
+        font-style: italic;
+        color: #122348;
+    }
+    .fontes::before {
+        content: "Fontes: ";
+        color: #122348;
+    }
+    ul {
+        text-indent: 15px;
+        line-height: 25px;
+        font-size: 1.2em;
+        padding: 25px;
+    }
+    li {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width: 1120px) {
+    header {
+        height: 200px;
+        width: 100%;
+        background-color: #122348;
+    }
+    h1.principal-header {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 2em;
+        color: white;
+        text-shadow: 1px 1px 1px #112c66;
+        font-weight: normal;
+        height: 62px;
+    }
+    /*==========CORPO==========*/
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-image: linear-gradient(180deg, #c3ddff, #eaf8ff, #ffffff);
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    main {
+        width: 600px;
+        background-color: #ffffff;
+        padding: 5px 25px 25px 25px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 0px 8px#112c6670;
+        margin: auto;
+        transition-duration: 0.3s;
+    }
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #112c66;
+        padding: 10px 5px;
+        font-size: 3em;
+        text-shadow: 1px 1px 2px #0f2556;
+    }
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+        padding: 10px 5px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #5e687e;
+    }
+    h3 {
+        font-size: 1.9em;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 5px;
+        font-weight: normal;
+        text-shadow: 1px 1px 1px #5b6988;
+    }
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.4em;
+        padding: 10px 5px;
+    }
+    p {
+        text-indent: 30px;
+        line-height: 25px;
+        font-size: 1.2em;
+        padding: 5px;
+    }
+    .imagem-ods,
+    .imagem-hub {
+        width: 100%;
+        height: 310x;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        padding: 20px 0px;
+        border-top: 1px solid #091531;
+        border-bottom: 1px solid #091531;
+    }
+    .imagemods,
+    .imagemhub {
+        width: 250px;
+        height: 310x;
+        padding: 0px 20px;
+    }
+    .imagemods img,
+    .imagemhub img {
+        width: 250px;
+        height: 250px;
+    }
+    .txt_img {
+        text-align: center;
+        text-indent: 0px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .videoyt {
+        margin: auto;
+        width: 400px;
+        padding-top: 20px;
+    }
+    iframe {
+        height: 300px;
+        width: 400px;
+    }
+    p.paragrafo_principal {
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    .fontes {
+        padding: 15px;
+        font-size: 1.3em;
+        font-style: italic;
+        color: #122348;
+    }
+    .fontes::before {
+        content: "Fontes: ";
+        color: #122348;
+    }
+    ul {
+        text-indent: 15px;
+        line-height: 25px;
+        font-size: 1.2em;
+        padding: 25px;
+    }
+    li {
+        padding: 10px;
+    }
+}
