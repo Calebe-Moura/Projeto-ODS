@@ -25,6 +25,7 @@
     
     html,
     body {
+        width: 100%;
         padding: 0;
         margin: 0;
         background-image: linear-gradient(180deg, #c3ddff, #eaf8ff, #ffffff);
@@ -32,7 +33,7 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
         box-sizing: border-box;
-        width: 100%;
+        overflow-x: hidden;
     }
     
     main {
@@ -82,32 +83,24 @@
         padding: 5px;
     }
     
-    .imagem-ods,
     .imagem-hub {
-        display: flexbox;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        border-top: 1px solid #22448ca4;
-        border-bottom: 1px solid #22448ca4;
-        width: 250px;
-        margin: auto;
+        width: 100%;
+        height: 310x;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        align-content: center;
     }
     
-    .imagemods,
     .imagemhub {
         width: 250px;
-        height: 250px;
-        padding-bottom: 10px;
+        height: 310x;
     }
     
-    .imagemhub:hover .txt_img {
-        display: block;
-    }
-    
-    .imagemhub:hover {
+    .imagemhub img {
         width: 250px;
-        height: 310px;
-        transition: 0.5s;
+        height: 250px;
     }
     
     .txt_img {
@@ -115,7 +108,6 @@
         text-indent: 0px;
         font-weight: bold;
         font-size: 0.9em;
-        display: none;
     }
     
     .videoyt {
