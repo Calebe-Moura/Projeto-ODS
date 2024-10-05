@@ -83,6 +83,7 @@
         padding: 5px;
     }
     
+    .imagem-ods,
     .imagem-hub {
         width: 100%;
         height: 310x;
@@ -93,6 +94,7 @@
         align-content: center;
     }
     
+    .imagemods,
     .imagemhub {
         width: 250px;
         height: 310x;
