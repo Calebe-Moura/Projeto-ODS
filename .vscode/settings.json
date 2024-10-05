@@ -1,0 +1,5 @@
+{
+    "editor.quickSuggestionsDelay": 10000,
+    "editor.snippetSuggestions": "inline",
+    "editor.acceptSuggestionOnEnter": "smart"
+}
