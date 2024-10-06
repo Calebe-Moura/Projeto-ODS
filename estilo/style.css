@@ -1,19 +1,41 @@
 * {
+    padding: 0%;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family:"";
+    src:url("../font/") format("");
+    font-weight: normal;
 }
 :root{
     --AzulClaro:#0678B8;
     --AzulMedio:#004E88;
     --AzulEscuro:#1E3464;
 }
+
 /*----HEADER----*/
 header {
     display: flex;
     height: auto;
+    width: 100%;
+    padding: 15px;
     justify-content: start;
     align-items: center;
-    text-align: left;
     background-color: var(--AzulClaro);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-image: url('../imagens/OIP\ \(1\).jpeg');
+    
 }
 
 .logo {
@@ -21,5 +43,42 @@ header {
 }
 
 .Titulo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #fff;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    text-shadow:1px 1px 5px#000;
+    flex-flow: row wrap;
+}
+/*----MENU----*/
+
+nav.menu{
+    display: flex;
+    margin-bottom: 30px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: normal;
+    text-align: center;
+}
+
+.item-menu{
+    color:#fff;
+    padding: 10px 25px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: var(--AzulMedio);
+    display: none;
+}
+
+.btn{
+    color:#fff;
+    padding: 10px 25px;
+    font-size: 1em;
+    text-decoration: none;background-color: var(--AzulMedio);
+}
+
+nav.menu:hover .item-menu{ display: block;}
+
+.item-menu:hover{
+    background-color: var(--AzulClaro);
 }
